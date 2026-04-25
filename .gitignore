@@ -1,0 +1,33 @@
+# Build outputs
+build/bin/
+frontend/dist/
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# AI agent generated planning/context
+docs/specs/
+.codex/
+.claude/
+.aider*
+.cursor/
+.continue/
+.context-mode/
+.windsurf/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
+# Local tooling and test artifacts
+.DS_Store
+.tmp/
+.playwright-cli/
+test-results/
+playwright-report/
+
+# Release artifacts
+release-artifacts/
+ModbusDesk-*.zip
+ModbusDesk-*.tar.gz
+SHA256SUMS.txt
